@@ -1,0 +1,9 @@
+log   C:\Program Files\MongoDB\data\log\MongoDB.log
+
+db   C:\Program Files\MongoDB\data\db
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+$ git config --global push.default matching
+
+ ssh-keygen -t rsa

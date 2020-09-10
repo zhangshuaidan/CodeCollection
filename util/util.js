@@ -501,6 +501,19 @@ const Utils = {
 				return v.toString(16);
 			});
 		}
+ // 获取URL参数
+getQueryPararm(str: string) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == str) {
+      return pair[1];
+    }
+  }
+  return false;
+}
+
 	},
 
 
